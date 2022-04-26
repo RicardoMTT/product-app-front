@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+  .cart {
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shop-cart {
+    cursor: "pointer";
+    position: relative;
+    right: -280px;
+  }
+}
+
+.amount-cart {
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+@media screen and (max-width: 767px) {
+  .amount-cart {
+    top: -18px !important;
+    left: 266px !important;
+  }
+}
